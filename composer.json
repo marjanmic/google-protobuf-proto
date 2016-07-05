@@ -14,11 +14,18 @@
             "homepage": "https://github.com/FabioBatSilva"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/marjanmic/protobuf-plugin"
+        }
+
+    ],
     "require"    : {
         "php" : ">=5.5.0"
     },
     "require-dev": {
-        "protobuf-php/protobuf-plugin" : "~0.1@dev"
+        "protobuf-php/protobuf-plugin" : "master"
     },
     "autoload"   : {
         "psr-0": { "google\\protobuf": "src/" }
